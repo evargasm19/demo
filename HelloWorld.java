@@ -17,6 +17,9 @@ class HelloWorldImplementation {
         int a=9, b=6;
         int div = a / b;
         return div;
+    double fraction(){
+        double a=9.4, b=3.66767, c;
+        return c = a/b;
     }
 
 }
@@ -27,6 +30,7 @@ public class HelloWorld {
     System.out.println(varobj.greeting());
     System.out.println(varobj.sum());
     System.out.println(varobj.division());
+    System.out.println(varobj.fraction());
 	}
 
 }
